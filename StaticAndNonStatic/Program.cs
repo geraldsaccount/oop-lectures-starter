@@ -1,7 +1,9 @@
-﻿namespace _2_StaticAndNonStatic;
+﻿namespace StaticAndNonStatic;
 
-class Program {
-    static void Main(string[] args) {
+class Program
+{
+    static void Main(string[] args)
+    {
         Counter obj1 = new Counter("Object 1");
         Counter obj2 = new Counter("Object 2");
 

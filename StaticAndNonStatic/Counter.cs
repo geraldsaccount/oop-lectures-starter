@@ -1,9 +1,7 @@
-﻿// Author: Gerald Montufar
-// Created: 04.10.2024
+namespace StaticAndNonStatic;
 
-namespace _2_StaticAndNonStatic;
-
-public class Counter {
+public class Counter
+{
     public static int objectCount;
     public string Name;
 
