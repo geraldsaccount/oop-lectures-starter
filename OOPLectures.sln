@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 StaticAndNonStatic", "2 StaticAndNonStatic\2 StaticAndNonStatic.csproj", "{F60E2E97-3542-4D98-B49A-0229E39B545D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 ClassQuest", "1 ClassQuest\1 ClassQuest.csproj", "{A879C37A-1BB4-4594-97AD-D1E287F9DE9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60E2E97-3542-4D98-B49A-0229E39B545D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60E2E97-3542-4D98-B49A-0229E39B545D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60E2E97-3542-4D98-B49A-0229E39B545D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60E2E97-3542-4D98-B49A-0229E39B545D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A879C37A-1BB4-4594-97AD-D1E287F9DE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A879C37A-1BB4-4594-97AD-D1E287F9DE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A879C37A-1BB4-4594-97AD-D1E287F9DE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A879C37A-1BB4-4594-97AD-D1E287F9DE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
