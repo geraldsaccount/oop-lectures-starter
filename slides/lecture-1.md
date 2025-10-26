@@ -2,19 +2,13 @@
 
 Gérald Montúfar 13.10.2025
 
----
-
 ## Object Oriented Programming
-
----
 
 ### What is OOP?
 
 - Programming paradigm based on "objects"
 - Objects contain data (attributes) and methods (functions)
 - Models real-world concepts
-
----
 
 ### Key OOP Principles
 
@@ -23,16 +17,12 @@ Gérald Montúfar 13.10.2025
 - Inheritance
 - Polymorphism
 
----
-
 ## Classes vs Objects
 
 | Class                                              | Object               |
 | -------------------------------------------------- | -------------------- |
 | Blueprint for creating objects                     | Instance of a class  |
 | Defines attributes (data) and methods (behaviours) | Contains actual data |
-
----
 
 ### Defining a class
 
@@ -48,16 +38,12 @@ public class ClassName {
 
 - Usually a class is defined in its own script e.g. `ClassName.cs`
 
----
-
 ### Creating an Object
 
 ```csharp []
 ClassName instanceName = new ClassName();
 instanceName.MemberVariable = 42;
 ```
-
----
 
 ### Task
 
@@ -67,18 +53,12 @@ instanceName.MemberVariable = 42;
 4. Create and instance of the `Player`
 5. Set the attributes of the `Player` to a value of your choosing
 
----
-
 ## Constructors
-
----
 
 ### What is a constructor?
 
 - A special method used to initialize objects
 - Automatically invoked when an object is created
-
----
 
 ### Declaring a constructor
 
@@ -101,8 +81,6 @@ public class ClassName {
 }
 ```
 
----
-
 ### Using a constructor
 
 ```csharp []
@@ -112,35 +90,19 @@ ClassName instanceName = new ClassName();
 ClassName secondInstanceName = new ClassName(7);
 ```
 
----
-
 ### Task
 
 1. Declare a default constructor that sets the values of your `Player` to sensible values
 2. Declare a custom constructor that sets all values of your `Player` object
 3. Create an instance of the `Player` using the custom constructor
 
----
-
-## Break
-
----
-
 ## Static vs Non-Static
-
----
 
 |          | Static                                                            | Non-Static                                                         |
 | -------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ |
 | Variable | Holds a value that is the same for all instances                  | Each instance holds it's own values                                |
 | Method   | Can be called without creating an instance of the class           | Can only be called on a specific object after creating an instance |
 | Usage    | Utility methods or data that should be shared among all instances | Data and methods that are unique for each instance                 |
-
----
-
-### Example
-
----
 
 ### Task
 
@@ -153,15 +115,11 @@ ClassName secondInstanceName = new ClassName(7);
 
 ## Object-Oriented Modeling
 
----
-
 ### What is OOM?
 
 - OOM is a process of designing a system using objects
 - Each object represents an entity (e.g., player, enemy, weapon)
 - OOM helps structure complex game systems
-
----
 
 ### Why Use OOM?
 
@@ -169,8 +127,6 @@ ClassName secondInstanceName = new ClassName(7);
 - **Reusability:** Reuse code for different game elements (e.g., a `Character` class for both players and enemies)
 - **Extensibility:** Easily extend functionality by adding new features
 - **Maintainability:** Organize code to make it easier to debug and improve
-
----
 
 ### Task-Together
 
@@ -181,13 +137,9 @@ ClassName secondInstanceName = new ClassName(7);
 
 ![Result](./images/rpg-system-screenshot.png "Simple RPG-System Result")
 
----
-
 ### Code-Together
 
 - Implement the simple RPG-system you designed previously
-
----
 
 ## Recap
 
@@ -196,7 +148,5 @@ ClassName secondInstanceName = new ClassName(7);
 - Constructors
 - Static vs Non-Static
 - Object-Oriented Modeling
-
----
 
 ### Q&A
