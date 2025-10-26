@@ -179,7 +179,7 @@ ClassName secondInstanceName = new ClassName(7);
   - The player can equip different weapons
   - Define the necessary classes, attributes, and methods
 
-!((./images/rpg-system-screenshot.png))
+![Result](./images/rpg-system-screenshot.png "Simple RPG-System Result")
 
 ---
 
